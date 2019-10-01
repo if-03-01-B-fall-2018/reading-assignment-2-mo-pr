@@ -1,0 +1,130 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+	color: #494949;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	width: 100%;
+	position: sticky;
+	top: 0px;
+	left: 0Px;
+	background: #fff;
+}
+header img{
+	float: left;
+	margin: 15px 0 20px 30px;
+	width: 50px;
+	height: auto;
+}
+header nav{
+	float: right;
+	margin: 10px 50px 20px 0;
+}
+header nav ul li{
+	list-style: none;
+	float: left;
+	margin-right: 25px;
+}
+header nav ul li, header img{
+	transition: all 300ms;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+}
+h1{
+	text-align: center;
+	font-size: 45px;
+	margin-bottom: 25px;
+}
+#HOME{
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+	background-color: #f0f0f0;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+#HOME h1{
+	margin-bottom: 0px;
+}
+hr{
+	width: 140px;
+	border: 3px solid;
+	border-radius: 3px;
+}
+#HOME img{
+	text-align: center;
+	padding-top: 50px;
+	width: 10%;
+  height: auto;
+}
+#WWW{
+	padding: 5px;
+	padding-left: 15px;
+}
+#WEBSERV{
+	background-color: #f0f0f0;
+	padding: 5px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+	padding-left: 15px;
+}
+#WEBCL{
+	padding: 5px;
+	padding-left: 15px;
+}
+#HelloW{
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+	background-color: #f0f0f0;
+	padding: 5px;
+	padding-left: 15px;
+}
+#heading, #assignmentTwo{
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+	padding: 55px;
+	padding-top: 65px;
+	text-align: center;
+	background-color: #f0f0f0;
+	border-top: 0px;
+	margin-top: 0px;
+}
+#WWWHTML{
+	padding: 5px;
+	padding-left: 15px;
+}
+#CSS{
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+	background-color: #f0f0f0;
+	padding: 5px;
+	padding-left: 15px;
+}
+li{
+	float: inherit;
+}
+#link1, #link2, #link3{
+	text-decoration: none;
+	color: #494949;
+}
+#WWWHTML ul li, #CSS ul li{
+	padding-bottom: 4px;
+}
+footer{
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+footer a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #494949;
+}
+a:hover {
+  color: #9A0002;
+}
+
+header nav ul li:hover{
+	padding-top: 5px;
+}
+header img:hover{
+	opacity: 0.5;
+}
